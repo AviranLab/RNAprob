@@ -4,7 +4,7 @@ A tool for data-directed RNA secondary structure prediction. It uses structure p
 
 ## Citation
 
-Fei Deng, Mirko Ledda, Sana Vaziri and Sharon Aviran (2015) Data-directed RNA secondary structure prediction using probabilistic modeling. Submitted.
+Fei Deng, Mirko Ledda, Sana Vaziri and Sharon Aviran (2015) Data-directed RNA secondary structure prediction using probabilistic modeling. In press.
 
 
 
