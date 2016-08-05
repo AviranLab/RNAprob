@@ -1548,16 +1548,6 @@ double structure::CalculatePseudoEnergy_smooth(double data, int strucType)
 	double sigma_paired = 0.0712473;
 	double mu_paired = 0.054239;
 	
-	/*double lamb = 1.421545;
-	
-	double xi_helix = 0.86011;
-	double sigma_helix = 0.11651;
-	double mu_helix = 0.08686;
-	
-	double xi_stacked = 1.23465;
-	double sigma_stacked = 0.04388;
-	double mu_stacked = 0.02649;*/
-	
 	double probability = 0;
 	double pseudoEnergy;
 	
@@ -1804,7 +1794,7 @@ void structure::ReadSHAPE(const char *filename, std::string modifier, bool calcu
 				SHAPEdiff[position] += SHAPEdiffnew[position]/counts[position];
 			}
 		}
-		
+		/*
 		for (position=1; position<=numofbases; position++){
 			double tmp = SHAPEdiff[position] + SHAPE[position];
 			if (SHAPE[position]==0 || SHAPEss[position]==0 || tmp==0){
@@ -1812,7 +1802,7 @@ void structure::ReadSHAPE(const char *filename, std::string modifier, bool calcu
 				SHAPEss[position]=0;
 				SHAPEdiff[position] = 0;
 			}
-		}
+		}*/
 		
 		
 		for (position=1;position<=numofbases;position++) {
