@@ -9,6 +9,9 @@ Fei Deng, Mirko Ledda, Sana Vaziri and Sharon Aviran. (2016). Data-directed RNA 
 
 
 ## Installation
+###  Before installation
+Users are required to  choose the right  compiler option based on the operation system used.  It chooses Mac OS  by default. To  compile  it on  Linux,  comment out  lines from 33 to 36 and uncomment  lines from  27 to 30. Similarly  for  Windows users.
+
 
 First of all, enter the directory of RNAprob and type:
 ```sh
