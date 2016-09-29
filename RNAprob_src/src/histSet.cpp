@@ -2,7 +2,7 @@
 #include <fstream>
 #include <stdlib.h>
 #include <algorithm>
-#include <string>
+#include <string.h>
 #include "histSet.h"
 #include "defines.h"
 
